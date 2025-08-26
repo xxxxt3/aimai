@@ -1,0 +1,366 @@
+/* 产品样式开始 */
+.product {
+    width: 100%;
+    height: 643px;
+    margin: 10px 0;
+}
+
+.wrap {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.product-info {
+    float: left;
+    width: 352px;
+    height: 464px;
+    padding-bottom: 15px;
+}
+
+.item-info {
+    float: left;
+    width: 590px;
+    height: 600px;
+    margin: 0 24px 0 30px;
+}
+
+.aside-info {
+    height: 643px;
+    width: 210px;
+    float: left;
+}
+
+.small-box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.small-img {
+    width: 100%;
+}
+
+.product-list {
+    position: relative;
+    width: 352px;
+    height: 54px;
+    margin-bottom: 18px;
+}
+
+.arrow-prev, .arrow-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    width: 22px;
+    height: 32px;
+    background: url("../images/__sprite.png") no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+    background-position: 0 -54px;
+}
+
+.arrow-next {
+    right: 0;
+    background-position: -78px 0;
+}
+
+.list-info {
+    position: relative;
+    width: 290px;
+    height: 54px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.list-info>ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 522px;
+    height: 54px;
+    transition: all .5s;
+}
+
+.list-info li {
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin: 0 2px;
+}
+
+.list-info img {
+    width: 50px;
+    border: 2px solid transparent;
+}
+
+.img-hover img {
+    border-color: #e53e41;
+}
+
+/* 放大镜 */
+.glass {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 235px;
+    height: 235px;
+    border: 1px solid #eee;
+    background-color: gold;
+    opacity: .5;
+}
+
+.big-box {
+    z-index: 666;
+    display: none;
+    position: absolute;
+    left: 353px;
+    top: 0;
+    width: 540px;
+    height: 540px;
+    overflow: hidden;
+
+}
+
+.big-box>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+}
+
+body {
+    height: 3000px;
+}
+
+.item-top {
+    width: 100%;
+    height: 400px;
+}
+
+/* 购物车 */
+.cart {
+    position: relative;
+    width: 58px;
+    height: 44px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+.buy-num {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 43px;
+    height: 42px;
+    padding: 1px 2px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.add, .minus {
+    position: absolute;
+    right: -1px;
+    width: 15px;
+    height: 22px;
+    line-height: 22px;
+    background-color: #f1f1f1;
+    color: #666;
+    border: 1px solid #ccc;
+}
+
+.add {
+    top: -1px;
+}
+
+.minus {
+    bottom: -1px;
+}
+
+.disablede {
+    color: #ccc;
+    /* 设置光标为禁止状态 */
+    cursor: not-allowed;
+}
+
+.aside-tit {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+}
+
+.aside-con {
+    position: relative;
+    width: 150px;
+    height: 564px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.aside-more {
+    width: 100%;
+    height: 19px;
+    padding-top: 10px;
+}
+
+.up, .down {
+    display: inline-block;
+    width: 28px;
+    height: 15px;
+    margin: 0 10px;
+    background: url("../images/__sprite\ \(1\).png") no-repeat;
+}
+
+.up {
+    background-position: -28px 0;
+}
+
+.aside-con li {
+    width: 150px;
+    height: 168px;
+    padding: 10px 0;
+}
+
+.aside-con>ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+}
+
+
+
+/* 产品样式结束 */
+/* 主体样式开始 */
+.con-left {
+    width: 210px;
+    float: left;
+}
+
+.con-right {
+    width: 990px;
+    float: right;
+}
+
+.category {
+    width: 210px;
+    border-bottom: 15px;
+    background-color: #f7f7f7;
+}
+
+.cate-tit {
+    padding: 10px;
+    border: 1px solid #eee;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    color: #666;
+}
+
+.category dt {
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+.category a {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 36px;
+    color: #666;
+    font-size: 12px;
+    text-align: left;
+}
+
+.category span {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/20130603A.png") no-repeat;
+    background-position: -20px 0;
+}
+
+.category dd>a {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 37px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+}
+
+.category a:hover {
+    color: #e4393c;
+}
+
+.category dd {
+    display: none;
+}
+
+.category .open dd {
+    display: block;
+}
+
+.tab-main {
+    width: 990px;
+    height: 39px;
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    border-bottom-color: #e4393c;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.tab-main li {
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
+
+.tab-main .tab-active {
+    background-color: #e4393c;
+    color: #fff;
+}
+
+.tab-con {
+    width: 990px;
+    height: 600px;
+    background-color: palevioletred;
+}
+
+.tab-items {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.con-active {
+    display: block;
+}
+
+/* 主体样式结束 */
+/* 返回页面顶部样式 */
+.back-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 34px;
+    height: 35px;
+    background-color: #7a6e6e;
+    background-image: url("../images/toolbars.png");
+    background-position: -50px -250px;
+}
